@@ -1,0 +1,10 @@
+export const debug_drawCamera = false;
+export const debug_collisionGrid = false;
+export const debug_collisionCells = false;
+export const debug_sceneCenterRings = false;
+export const debug_sceneCenter = false;
+export const debug_EntityDirection = true;
+export const debug_EntityVerticies = true;
+export const debug_EntityBoundingBox = true;
+export const debug_EntityNormals = true;
+//# sourceMappingURL=wf_DebugSwitches.js.map

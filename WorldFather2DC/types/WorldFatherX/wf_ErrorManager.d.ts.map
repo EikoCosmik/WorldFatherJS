@@ -1,0 +1,1 @@
+{"version":3,"file":"wf_ErrorManager.d.ts","sourceRoot":"","sources":["../../src/WorldFatherX/wf_ErrorManager.ts"],"names":[],"mappings":"AAAA,cAAM,iBAAiB;IAEtB,cAAuB;IAEhB,WAAW,CAAC,KAAK,EAAE,GAAG,EAAE,OAAO,GAAE,MAAiC,GAAG,GAAG,CAO9E;IAEM,YAAY,CAAC,KAAK,EAAE,GAAG,EAAE,OAAO,GAAE,MAAiC,GAAG,IAAI,CAMhF;CACD;AAYD,eAAO,MAAM,YAAY,mBAA0B,CAAC"}

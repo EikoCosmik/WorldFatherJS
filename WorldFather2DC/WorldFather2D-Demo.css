@@ -1,0 +1,46 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html
+{
+
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background-color: #1a0000;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	display: grid;
+	place-items: center;
+	container-type: size;
+}
+
+.screen
+{
+	outline: 1px solid white;
+	aspect-ratio: 4/3;
+  	width: min(95cqw, calc(95cqh * 4 / 3));
+	position: relative;
+}
+
+.screen::before
+{
+	content: "If you can read this, something went wrong! Did you forget to compile?";
+	display: block;
+	color: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -5;
+}

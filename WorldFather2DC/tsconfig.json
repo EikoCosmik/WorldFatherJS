@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    // ==========| Type Checking |==========
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    //"noUnusedParameters": true,
+    "strict": true, // strictNullChecks, noImplicitAny, strictPropertyInitialization, useUnknownInCatchVariables, noImplicitThis, strictBindCallApply, strictFunctionTypes
+    "strictBuiltinIteratorReturn": true,
+    // ==========| Modules |==========
+    "module": "ESNext",
+    "rootDir": "src",
+    // ==========| Emit |==========
+    "declaration": true,
+    "declarationDir": "./types",
+    "declarationMap": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "removeComments": true,
+    // ==========| Language and Environment |==========
+    "target": "ESNext",
+    // ==========| Compiler Diagnostics |==========
+    "extendedDiagnostics": true,
+    "listEmittedFiles": true,
+    //"listFiles": true,
+    //"traceResolution": true,
+    // ==========| Projects |==========
+    "composite": true,
+    // ==========| Output Formatting |==========
+    "noErrorTruncation": true,
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "watchOptions": {
+    "excludeDirectories": [
+      "dist",
+      "txtFiles"
+    ]
+  }
+}

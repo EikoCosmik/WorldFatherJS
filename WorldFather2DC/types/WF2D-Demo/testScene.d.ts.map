@@ -1,0 +1,1 @@
+{"version":3,"file":"testScene.d.ts","sourceRoot":"","sources":["../../src/WF2D-Demo/testScene.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,uCAAuC,CAAC;AAK9D,qBAAa,SAAU,SAAQ,KAAK;IAEnC,OAAO,CAAC,OAAO,CAA2B;IAEjC,OAAO,IAAI,IAAI,CAqBvB;IAEQ,MAAM,CAAC,EAAE,EAAE,MAAM,GAAG,IAAI,CAGhC;CACD"}

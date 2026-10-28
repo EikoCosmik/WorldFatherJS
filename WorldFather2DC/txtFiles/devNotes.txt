@@ -1,0 +1,10 @@
+Best Practice: Use explicit types for function parameters and return types to make your code more maintainable and self-documenting.
+Add Extras Folder in SRC not SRC/WFX
+
+
+-- ExampleScenesWanted --
+- Asteroid (Rebuild)
+- Conways (Fix/Rebuild)
+- Snake (Fix/Rebuild)
+- Jeopardy
+- Linear
